@@ -1,0 +1,29 @@
+body {
+    background: rgb(162, 236, 162);
+}
+
+#container {
+    display: grid;
+    border: 1px solid rgba(165, 42, 42, 0.514);
+    width: 960px;
+    height: 960px;
+    background: rgb(229, 243, 248);
+    margin-left: 10%;
+}
+.items {
+    grid-column: auto;
+    grid-row: auto;
+}
+#clear {
+    color:rgb(128, 188, 207);
+    border-radius: 15px;
+    background: white;
+    font-size: 20px;
+    width: 10%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+#name {
+    margin-left: 35%;
+    font-size: 250%;
+}
